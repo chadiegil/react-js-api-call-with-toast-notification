@@ -1,0 +1,86 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "This is a sample title",
+      "profile": "https://images.pexels.com/photos/13658923/pexels-photo-13658923.jpeg?cs=srgb&dl=pexels-konstantin-dawn-13658923.jpg&fm=jpg",
+      "post": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+      "name": "Satheesh",
+      "email": "Sat@mail.com",
+      "address": "South street",
+      "img": "https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp",
+      "alt": "image",
+      "number_of_likes": 5352342
+    },
+    {
+      "id": 2,
+      "title": "This is a sample title",
+      "profile": "https://images.pexels.com/photos/13697590/pexels-photo-13697590.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "post": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+      "name": "John",
+      "email": "john@mail.com",
+      "address": "North street",
+      "img": "https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp",
+      "alt": "image",
+      "number_of_likes": 3433342
+    },
+    {
+      "id": 3,
+      "title": "This is a sample title",
+      "profile": "https://images.pexels.com/photos/10786228/pexels-photo-10786228.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "post": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+      "name": "Robert",
+      "email": "robert@mail.com",
+      "address": "East street",
+      "img": "https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp",
+      "alt": "image",
+      "number_of_likes": 2334
+    },
+    {
+      "id": 4,
+      "name": "Mani",
+      "profile": "https://images.pexels.com/photos/9593302/pexels-photo-9593302.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "title": "This is a sample title",
+      "post": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+      "email": "mani@mail.com",
+      "address": "West street",
+      "img": "https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp",
+      "alt": "image",
+      "number_of_likes": 5531
+    },
+    {
+      "id": 4,
+      "name": "Mani",
+      "profile": "https://images.pexels.com/photos/13658923/pexels-photo-13658923.jpeg?cs=srgb&dl=pexels-konstantin-dawn-13658923.jpg&fm=jpg",
+      "title": "This is a sample title",
+      "post": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+      "email": "mani@mail.com",
+      "address": "West street",
+      "img": "https://mdbcdn.b-cdn.net/img/new/standard/city/045.webp",
+      "alt": "image",
+      "number_of_likes": 452332
+    },
+    {
+      "id": 4,
+      "name": "Mani",
+      "profile": "https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "title": "This is a sample title",
+      "post": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+      "email": "mani@mail.com",
+      "address": "West street",
+      "img": "https://mdbcdn.b-cdn.net/img/new/standard/city/046.webp",
+      "alt": "image",
+      "number_of_likes": 23512312
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

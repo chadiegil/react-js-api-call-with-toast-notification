@@ -1,0 +1,43 @@
+/* CSS */
+.button-1 {
+  border-style: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+
+  margin: 0;
+  outline: none;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #f082ac;
+  border-radius: 45%;
+}
+
+.setting {
+  color: orangered;
+  font-size: 25px;
+}
+.setting:hover {
+  cursor: pointer;
+}
+.share-icon {
+  color: blue;
+}
+.share-icon:hover {
+  cursor: pointer;
+}
+.profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
