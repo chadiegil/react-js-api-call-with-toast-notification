@@ -1,0 +1,21 @@
+.profile {
+  border-radius: 50%;
+}
+.card {
+  margin-top: 100px;
+  padding: 10px;
+  width: 800px;
+}
+
+.margin-left {
+  margin-left: 200px;
+}
+.back {
+  margin-top: 20px;
+  font-size: 20px;
+  color: blue;
+}
+.back:hover {
+  border-radius: 50%;
+  background-color: rgb(154, 154, 231);
+}

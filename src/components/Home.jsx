@@ -24,8 +24,11 @@ const Home = () => {
 
   return (
     <>
-      {!loading && <h1 className="text-center">loading..</h1>}
-      <Card post={post} />
+      {!loading && <h1 className="text-center loading">loading..</h1>}
+      {post &&
+        post.map((post) => {
+          return <Card post={post} />;
+        })}
     </>
   );
 };

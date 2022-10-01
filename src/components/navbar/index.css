@@ -4,6 +4,24 @@
   width: 100%;
   z-index: 10;
 }
+
 .logo {
   color: orangered;
+}
+
+.hover-style {
+  margin-right: 10px;
+}
+.hover-style:hover {
+  color: orangered;
+  cursor: pointer;
+}
+
+.loading {
+  margin-top: 100px;
+  z-index: 100;
+}
+.home {
+  text-decoration: none;
+  color: white;
 }
