@@ -7,8 +7,6 @@ import "react-toastify/dist/ReactToastify.css";
 import "./card.css";
 import { useNavigate } from "react-router-dom";
 
-import { useState } from "react";
-
 const alertSetting = () => {
   console.log("asdas");
   toast("settings");
@@ -22,7 +20,6 @@ const share = () => {
 
 const Card = ({ post }) => {
   const navigate = useNavigate();
-  const [inputSearch, setInputSearch] = useState("");
 
   const openPost = () => {
     navigate(`/posts/${post.id}`);

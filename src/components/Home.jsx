@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Card from "./card/Card";
-import { CgSearch } from "react-icons/cg";
 
 import "./index.css";
 
@@ -18,6 +17,12 @@ const Home = () => {
         console.log(data);
         setLoading(true);
       });
+  };
+  const filterUser = (val) => {
+    if (inputSearch == "") return val;
+    if (val.name.toLowerCase().includes(inputSearch.toLocaleLowerCase())) {
+      return val;
+    }
   };
 
   useEffect(() => {
@@ -38,18 +43,9 @@ const Home = () => {
         />
       </div>
       {post &&
-        post
-          .filter((value) => {
-            if (inputSearch == "") return value;
-            if (
-              value.name.toLowerCase().includes(inputSearch.toLocaleLowerCase())
-            ) {
-              return value;
-            }
-          })
-          .map((post) => {
-            return <Card post={post} />;
-          })}
+        post.filter(filterUser).map((post) => {
+          return <Card post={post} />;
+        })}
     </>
   );
 };

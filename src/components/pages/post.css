@@ -19,3 +19,9 @@
   border-radius: 50%;
   background-color: rgb(154, 154, 231);
 }
+
+.center-style {
+  position: absolute;
+  top: 30%;
+  margin-left: 40%;
+}

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import { IoMdArrowBack } from "react-icons/io";
 import "./post.css";
+import Profile from "../profile/Profile";
 
 const Post = () => {
   const { userId } = useParams();
@@ -21,11 +22,10 @@ const Post = () => {
   return (
     <div className="card margin-left">
       {isLoading && <h1>Loading ...</h1>}
-      <div classNameName="d-flex align-items-center">
-        <img className="profile" src={post.profile} alt="profile" width={150} />
-        <span className="h3 mt-4 p-1">{post.name}</span>
-      </div>
+
       <div classNameName="container d-flex align-items-center justify-content-between">
+        <Profile post={post} />
+
         <div className="h6">{post.post}</div>
         <img src={post.img} alt="image" width={350} />
       </div>
